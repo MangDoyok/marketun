@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container {
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px; /* Padding lebih besar */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px; /* Jarak bawah input */
+}
+
+input[type="submit"],
+button {
+    padding: 12px 20px; /* Padding lebih besar */
+    background-color: #007bff; /* Warna biru */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px; /* Ukuran font tombol */
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #0056b3; /* Warna lebih gelap saat hover */
+}
+
+a {
+    text-decoration: none;
+}
+
+a button {
+    background-color: #28a745; /* Warna hijau untuk tombol di dalam link */
+}
+
+a button:hover {
+    background-color: #218838; /* Warna lebih gelap saat hover */
+}
+
+.notification {
+    color: red;
+    margin-bottom: 20px;
+}
