@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #262626;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.feed {
+    flex: 2;
+    max-width: 600px;
+}
+
+aside {
+    flex: 1;
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+.feed, aside {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+.profile-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-header {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.profile-picture {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #dbdbdb;
+}
+
+.profile-info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.username {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile-stats {
+    display: flex;
+    gap: 20px;
+}
+
+.profile-stats span {
+    font-size: 16px;
+}
+
+.edit-profile-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0095f6;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-profile-btn:hover {
+    background-color: #007bbf;
+}
+
+.profile-content {
+    width: 100%;
+    max-width: 600px;
+}
+
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
